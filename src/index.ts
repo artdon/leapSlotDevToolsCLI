@@ -1,6 +1,7 @@
 import { AdkTitlePlayer } from './adkTitlePlayer/adkTitlePlayer';
 
 const t: AdkTitlePlayer = new AdkTitlePlayer('Hello Title');
-setTimeout(() => {
-  t.init(5);
-}, 1000);
+t.init(5);
+t.up(2);
+
+export { AdkTitlePlayer };

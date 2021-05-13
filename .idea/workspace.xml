@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0799f49-ac02-4ac5-ad79-bca3ebe7e441" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release-package.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/adkTitlePlayer/adkTitlePlayer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/adkTitlePlayer/adkTitlePlayer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/adkTitlePlayer/adkTitlePlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/adkTitlePlayer/adkTitlePlayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,18 +24,27 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.npmrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="69" selection-start-column="69" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -37,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/adkTitlePlayer/adkTitlePlayer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="729">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -46,26 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tslint.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.prettierrc">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -80,11 +77,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/release-package.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="216">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -140,10 +146,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/__tests__/test.ts" />
         <option value="$PROJECT_DIR$/src/__tests__/testMakeLine.ts" />
-        <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/src/adkTitlePlayer/adkTitlePlayer.ts" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/index.js" />
+        <option value="$PROJECT_DIR$/src/index.ts" />
+        <option value="$PROJECT_DIR$/.npmrc" />
+        <option value="$PROJECT_DIR$/release-package.yml" />
       </list>
     </option>
   </component>
@@ -249,32 +258,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.lint">
-    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="lint" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="prepare" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="prepare" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="prepublishOnly" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="prepublishOnly" />
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -285,6 +274,26 @@
       <command value="run" />
       <scripts>
         <script value="preversion" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="publish" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="publish" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -302,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.publish" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.version" />
         <item itemvalue="npm.preversion" />
-        <item itemvalue="npm.prepublishOnly" />
-        <item itemvalue="npm.prepare" />
-        <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
   </component>
@@ -324,6 +333,7 @@
       <workItem from="1620881249222" duration="505000" />
       <workItem from="1620881770962" duration="6822000" />
       <workItem from="1620888898274" duration="477000" />
+      <workItem from="1620889821889" duration="1846000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Package">
       <created>1620883924483</created>
@@ -414,30 +424,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9027000" />
+    <option name="totallyTimeSpent" value="10873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.39082968" side_tool="true" weight="0.21342282" />
-      <window_info content_ui="combo" x="-1170" y="228" width="420" height="584" id="Project" order="1" sideWeight="0.6246787" visible="true" weight="0.17430703" />
-      <window_info id="npm" order="2" sideWeight="0.37532133" side_tool="true" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" x="-1170" y="228" width="420" height="584" id="Project" order="1" sideWeight="0.621673" visible="true" weight="0.17590618" />
+      <window_info id="npm" order="2" sideWeight="0.37832698" side_tool="true" visible="true" weight="0.17590618" />
       <window_info id="Favorites" order="3" sideWeight="0.27739727" side_tool="true" weight="0.16950959" />
       <window_info auto_hide="true" content_ui="combo" x="-1898" y="391" width="1876" height="257" id="Find" order="4" sideWeight="0.42358804" side_tool="true" weight="0.20895523" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.65884864" visible="true" weight="0.56681514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65884864" weight="0.56681514" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.93336886" weight="0.3997773" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="5" sideWeight="0.59648186" weight="0.33741647" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.1071953" />
-      <window_info anchor="bottom" x="-1920" y="23" width="1920" height="1017" id="Version Control" order="7" sideWeight="0.6151386" type="WINDOWED" weight="0.15367483" />
+      <window_info active="true" anchor="bottom" x="-1920" y="23" width="1920" height="1017" id="Version Control" order="7" sideWeight="0.6151386" type="WINDOWED" visible="true" weight="0.15367483" />
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.52665246" weight="0.3496659" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.40618336" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Tail" order="10" sideWeight="0.4986577" weight="0.4787078" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.7436034" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.68443495" weight="0.4142539" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.68443495" visible="true" weight="0.4142539" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.59381664" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Duplicates" order="14" weight="0.49554566" />
       <window_info anchor="bottom" id="REST Client" order="15" sideWeight="0.49946696" weight="0.3496659" />
@@ -530,34 +539,6 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/npm-cache/_logs/2021-05-13T04_53_45_142Z-debug.log" />
     <entry file="file://$PROJECT_DIR$/index.md" />
-    <entry file="file://$PROJECT_DIR$/lib/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adkTitlePlayer/adkTitlePlayer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -569,13 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -597,9 +571,58 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="216">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adkTitlePlayer/adkTitlePlayer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="69" selection-start-column="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release-package.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
