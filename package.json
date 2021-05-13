@@ -1,6 +1,6 @@
 {
   "name": "@artdon/ownlibrary",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "\"# My Own Library\"",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -9,18 +9,25 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags",
-    "publish" : "npm publish"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version_": "npm run format && git add -A src",
+    "postversion_": "git push && git push --tags",
+    "publish_": "npm publish --access public",
+    "v_0": "node ./utils/setVersion.js 0",
+    "v_1": "node ./utils/setVersion.js 1",
+    "v_2": "node ./utils/setVersion.js 2",
+    "v_3": "node ./utils/setVersion.js 3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArtDon/ownLibrary.git"
   },
-  "keywords": ["custom libarary", "own npm module"],
+  "keywords": [
+    "custom libarary",
+    "own npm module"
+  ],
   "author": "ArtDon adkcenter@gmail.com",
   "license": "ISC",
   "bugs": {
@@ -38,5 +45,11 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
 }

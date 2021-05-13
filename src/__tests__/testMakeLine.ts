@@ -1,4 +1,4 @@
-import { AdkTitlePlayer } from '../adkTitlePlayer/adkTitlePlayer';
+import { AdkTitlePlayer } from '..';
 
 test('Init AdkTitlePlayer @@', () => {
   let n = new AdkTitlePlayer('@@');
