@@ -1,6 +1,6 @@
 {
   "name": "@artdon/ownlibrary",
-  "version": "0.0.17",
+  "version": "0.0.19",
   "description": "\"# My Own Library\" docker login --username artdon; b1a27c7d-4c69-4af4-a654-26da2b5c1512",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArtDon/ownLibrary.git"
+    "url": "git+https://github.com/artdon/ownLibrary.git"
   },
   "keywords": [
     "custom libarary",
@@ -27,9 +27,9 @@
   "author": "ArtDon adkcenter@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArtDon/ownLibrary/issues"
+    "url": "https://github.com/artdon/ownLibrary/issues"
   },
-  "homepage": "https://github.com/ArtDon/ownLibrary#readme",
+  "homepage": "https://github.com/artdon/ownLibrary#readme",
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "jest": "^26.6.3",
@@ -48,8 +48,6 @@
     "node-cmd": "^4.0.0",
     "path": "^0.12.7",
     "request": "^2.88.2"
-  },
-  "publishConfig": {
-    "@foo:registry": " https://gitlab.example.com/api/v4/projects/<your_project_id>/packages/npm/"
   }
+
 }
