@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0799f49-ac02-4ac5-ad79-bca3ebe7e441" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ownLibrary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jestconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="27">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -233,6 +222,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="publish" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="publish" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -245,6 +244,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.publish" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format" />
@@ -264,12 +264,12 @@
       <updated>1620880002553</updated>
       <workItem from="1620880003729" duration="1223000" />
       <workItem from="1620881249222" duration="505000" />
-      <workItem from="1620881770962" duration="391000" />
+      <workItem from="1620881770962" duration="697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2119000" />
+    <option name="totallyTimeSpent" value="2425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -282,17 +282,17 @@
       <window_info auto_hide="true" content_ui="combo" x="-1898" y="391" width="1876" height="257" id="Find" order="4" sideWeight="0.42358804" side_tool="true" weight="0.20895523" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6593817" visible="true" weight="0.47995546" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.65884864" visible="true" weight="0.47995546" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.93336886" weight="0.3997773" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="5" sideWeight="0.59648186" weight="0.33741647" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.1071953" />
       <window_info anchor="bottom" x="-1920" y="23" width="1920" height="1017" id="Version Control" order="7" sideWeight="0.6151386" type="WINDOWED" weight="0.15367483" />
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.52665246" weight="0.3496659" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34061834" side_tool="true" visible="true" weight="0.47995546" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3411514" side_tool="true" weight="0.47995546" />
       <window_info anchor="bottom" id="Tail" order="10" sideWeight="0.4986577" weight="0.4787078" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.7436034" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.684968" weight="0.24610245" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.68443495" weight="0.4142539" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32962137" />
       <window_info anchor="bottom" id="Duplicates" order="14" weight="0.49554566" />
       <window_info anchor="bottom" id="REST Client" order="15" sideWeight="0.49946696" weight="0.3496659" />
@@ -378,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="27">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
