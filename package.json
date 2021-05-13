@@ -1,7 +1,7 @@
 {
   "name": "@artdon/ownlibrary",
-  "version": "0.0.21",
-  "description": "\"# My Own Library\" docker login --username artdon; b1a27c7d-4c69-4af4-a654-26da2b5c1512",
+  "version": "0.0.22",
+  "description": "\"# My Own Library\" docker login --username artdon; MAIN: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",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/artdon/ownLibrary/issues"
   },
-  "homepage": "https://github.com/artdon/ownLibrary#readme",
+  "homepage": "https://artdon.github.io/ownLibrary/",
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "jest": "^26.6.3",
@@ -48,6 +48,8 @@
     "node-cmd": "^4.0.0",
     "path": "^0.12.7",
     "request": "^2.88.2"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
-
 }

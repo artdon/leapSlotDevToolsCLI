@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67fc2a93-6280-4e7d-973b-347386e5962e" name="New changelist" comment="">
+    <list default="true" id="67fc2a93-6280-4e7d-973b-347386e5962e" name="New changelist" comment="New changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <list id="e0799f49-ac02-4ac5-ad79-bca3ebe7e441" name="Default Changelist" comment="Merge branch 'master' of https://github.com/ArtDon/ownLibrary&#10;&#10;Signed-off-by: ArtDon &lt;adkcenter@gmail.com&gt;&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
@@ -33,22 +34,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3402" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jestconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.docker/config.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -62,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.npmrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="27">
+              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -98,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="1188">
+              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/npm-cache/_logs/2021-05-13T20_24_05_606Z-debug.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="1026">
+              <caret line="71" column="59" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -159,8 +153,8 @@
         <option value="$PROJECT_DIR$/src/__tests__/testMakeLine.ts" />
         <option value="$PROJECT_DIR$/utils/setVersion.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.npmrc" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.npmrc" />
       </list>
     </option>
   </component>
@@ -218,6 +212,11 @@
               <item name=".github" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="workflows" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="ownLibrary" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\leapgames\ownLibrary" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -232,7 +231,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm-cache/_logs/2021-05-13T20_24_05_606Z-debug.log" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -263,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Docker">
+  <component name="RunManager" selected="Node.js.setVersion.js">
     <configuration name="setVersion.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="setVersion.js" working-dir="$PROJECT_DIR$/utils">
       <method v="2" />
     </configuration>
@@ -464,9 +463,23 @@
       <option name="project" value="LOCAL" />
       <updated>1620911365285</updated>
       <workItem from="1620911366072" duration="312000" />
-      <workItem from="1620933021684" duration="2504000" />
+      <workItem from="1620933021684" duration="5704000" />
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New changelist">
+      <created>1620935699219</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620935699219</updated>
+    </task>
+    <task id="LOCAL-00017" summary="New changelist">
+      <created>1620936536246</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620936536246</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -500,7 +513,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33128000" />
+    <option name="totallyTimeSpent" value="36328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,24 +528,24 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="-1170" y="228" width="420" height="584" id="Project" order="0" sideWeight="0.6149533" visible="true" weight="0.3001066" />
+      <window_info content_ui="combo" x="-1170" y="228" width="420" height="584" id="Project" order="0" sideWeight="0.6141868" visible="true" weight="0.3001066" />
       <window_info id="Structure" order="1" sideWeight="0.37739873" side_tool="true" weight="0.17590618" />
-      <window_info id="npm" order="2" sideWeight="0.38504672" side_tool="true" visible="true" weight="0.3001066" />
+      <window_info id="npm" order="2" sideWeight="0.38581315" side_tool="true" visible="true" weight="0.3001066" />
       <window_info id="Favorites" order="3" sideWeight="0.27739727" side_tool="true" weight="0.16950959" />
       <window_info auto_hide="true" content_ui="combo" x="-1898" y="391" width="1876" height="257" id="Find" order="4" sideWeight="0.42358804" side_tool="true" weight="0.20895523" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6577825" visible="true" weight="0.40423164" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65618336" weight="0.40423164" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.93336886" weight="0.3997773" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="5" sideWeight="0.5943497" weight="0.33741647" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.10690423" />
       <window_info anchor="bottom" x="-1920" y="23" width="1920" height="1017" id="Version Control" order="7" sideWeight="0.6151386" type="WINDOWED" weight="0.15367483" />
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.52665246" weight="0.3496659" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34221748" side_tool="true" visible="true" weight="0.40423164" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.31769723" side_tool="true" visible="true" weight="0.35634744" />
       <window_info anchor="bottom" id="Tail" order="10" sideWeight="0.4986577" weight="0.47772828" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.7436034" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.68443495" weight="0.35634744" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.6823028" visible="true" weight="0.35634744" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.59381664" weight="0.32962137" />
       <window_info anchor="bottom" id="Duplicates" order="14" weight="0.49554566" />
       <window_info anchor="bottom" id="REST Client" order="15" sideWeight="0.49946696" weight="0.3496659" />
@@ -600,7 +613,8 @@
     <MESSAGE value="Setup Package&#10;&#10;Signed-off-by: ArtDon &lt;adkcenter@gmail.com&gt;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/ArtDon/ownLibrary&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Merge branch 'master' of https://github.com/ArtDon/ownLibrary&#10;&#10;Signed-off-by: ArtDon &lt;adkcenter@gmail.com&gt;&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/ArtDon/ownLibrary&#10;&#10;Signed-off-by: ArtDon &lt;adkcenter@gmail.com&gt;&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="New changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -778,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.npmrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.prettierrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -806,6 +813,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/npm-cache/_logs/2021-05-13T20_24_05_606Z-debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="1026">
+          <caret line="71" column="59" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2349" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -816,15 +835,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3402" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="1188">
+          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
