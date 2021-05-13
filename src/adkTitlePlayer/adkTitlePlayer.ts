@@ -16,7 +16,7 @@ export class AdkTitlePlayer {
 
   public init(num: number): string {
     if (num === 0) {
-      document.title = 'init #############################';
+      document.title = 'init 1#############################';
       return 'init : ' + this.startValue;
     }
     for (let i = 0; i < num; i++) {

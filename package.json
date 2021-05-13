@@ -1,7 +1,7 @@
 {
   "name": "@artdon/ownlibrary",
-  "version": "0.0.3",
-  "description": "\"# My Own Library\"",
+  "version": "0.0.14",
+  "description": "\"# My Own Library\" docker login --username artdon; b1a27c7d-4c69-4af4-a654-26da2b5c1512",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -14,11 +14,7 @@
     "preversion": "npm run lint",
     "version_": "npm run format && git add -A src",
     "postversion_": "git push && git push --tags",
-    "publish_": "npm publish --access public",
-    "v_0": "node ./utils/setVersion.js 0",
-    "v_1": "node ./utils/setVersion.js 1",
-    "v_2": "node ./utils/setVersion.js 2",
-    "v_3": "node ./utils/setVersion.js 3"
+    "publish_": "node ./utils/setVersion.js 3 && npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -49,7 +45,11 @@
   "dependencies": {
     "cli-color": "^2.0.0",
     "fs": "0.0.1-security",
+    "node-cmd": "^4.0.0",
     "path": "^0.12.7",
     "request": "^2.88.2"
+  },
+  "publishConfig": {
+    "@foo:registry": " https://gitlab.example.com/api/v4/projects/<your_project_id>/packages/npm/"
   }
 }
