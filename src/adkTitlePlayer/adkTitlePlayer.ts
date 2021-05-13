@@ -4,7 +4,6 @@ export class AdkTitlePlayer {
   constructor(_startValue: string) {
     this.startValue = _startValue;
     this.init(0);
-
   }
 
   public up(num: number): string {
@@ -22,11 +21,9 @@ export class AdkTitlePlayer {
     }
     for (let i = 0; i < num; i++) {
       setTimeout(() => {
-        let _num: number = 0;
-        let rez: string = `#### ${this.startValue}:${_num} ####`;
-        console.log(rez);
-        document.title = rez;
-      }, ((i + 1) * 3000));
+        const _num: number = 0;
+        document.title = `#### ${this.startValue}:${_num} ####`;
+      }, (i + 1) * 3000);
     }
     return 'init : ' + num + ' : ' + this.startValue;
   }

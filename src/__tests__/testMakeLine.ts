@@ -1,6 +1,5 @@
 import { AdkTitlePlayer } from '../adkTitlePlayer/adkTitlePlayer';
 
-
 test('Init AdkTitlePlayer @@', () => {
   let n = new AdkTitlePlayer('@@');
   expect(n.init(3)).toBe('init : ' + 3 + ' : ' + '@@');
