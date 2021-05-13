@@ -1,6 +1,6 @@
 {
   "name": "@artdon/ownlibrary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "\"# My Own Library\"",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

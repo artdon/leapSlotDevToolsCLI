@@ -1,3 +1,4 @@
 node_modules
-/ lib
-/.idea/workspace.xml
+/lib
+
+.docker/DockerDesktop/DockerDesktop.vhdx
