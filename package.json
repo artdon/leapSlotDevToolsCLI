@@ -1,6 +1,6 @@
 {
   "name": "@artdon/ownlibrary",
-  "version": "0.0.14",
+  "version": "0.0.14", 
   "description": "\"# My Own Library\" docker login --username artdon; b1a27c7d-4c69-4af4-a654-26da2b5c1512",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

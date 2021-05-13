@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67fc2a93-6280-4e7d-973b-347386e5962e" name="New changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deno.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <list id="e0799f49-ac02-4ac5-ad79-bca3ebe7e441" name="Default Changelist" comment="Merge branch 'master' of https://github.com/ArtDon/ownLibrary&#10;&#10;Signed-off-by: ArtDon &lt;adkcenter@gmail.com&gt;&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -27,6 +28,18 @@
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.github/labeler.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.github/workflows/labeler.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -41,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.npmrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="69" selection-start-column="69" selection-end-column="69" />
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -59,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="54">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -107,7 +120,6 @@
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/index.js" />
-        <option value="$PROJECT_DIR$/.npmrc" />
         <option value="$PROJECT_DIR$/release-package.yml" />
         <option value="$PROJECT_DIR$/.github/workflows/release-package.yml" />
         <option value="$PROJECT_DIR$/.github/workflows/deno.yml" />
@@ -117,8 +129,9 @@
         <option value="$PROJECT_DIR$/jestconfig.json" />
         <option value="$PROJECT_DIR$/src/__tests__/testMakeLine.ts" />
         <option value="$PROJECT_DIR$/utils/setVersion.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.npmrc" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -163,6 +176,11 @@
             <path>
               <item name="ownLibrary" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\leapgames\ownLibrary" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".docker" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ownLibrary" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\leapgames\ownLibrary" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name=".github" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -170,6 +188,11 @@
               <item name="D:\leapgames\ownLibrary" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name=".github" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="workflows" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ownLibrary" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\leapgames\ownLibrary" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Docker">
     <configuration name="setVersion.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="setVersion.js" working-dir="$PROJECT_DIR$/utils">
       <method v="2" />
     </configuration>
@@ -283,8 +306,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.v_3" />
         <item itemvalue="npm.publish_" />
+        <item itemvalue="npm.v_3" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.v_2" />
         <item itemvalue="npm.test" />
@@ -414,6 +437,7 @@
       <option name="project" value="LOCAL" />
       <updated>1620911365285</updated>
       <workItem from="1620911366072" duration="312000" />
+      <workItem from="1620933021684" duration="404000" />
     </task>
     <option name="localTasksCounter" value="16" />
     <option name="trackContextForNewChangelist" value="true" />
@@ -449,7 +473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30624000" />
+    <option name="totallyTimeSpent" value="31028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,22 +486,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="-1170" y="228" width="420" height="584" id="Project" order="0" sideWeight="0.6168224" visible="true" weight="0.3001066" />
+      <window_info active="true" content_ui="combo" x="-1170" y="228" width="420" height="584" id="Project" order="0" sideWeight="0.6149533" visible="true" weight="0.3001066" />
       <window_info id="Structure" order="1" sideWeight="0.37739873" side_tool="true" weight="0.17590618" />
-      <window_info id="npm" order="2" sideWeight="0.38317758" side_tool="true" visible="true" weight="0.3001066" />
+      <window_info id="npm" order="2" sideWeight="0.38504672" side_tool="true" visible="true" weight="0.3001066" />
       <window_info id="Favorites" order="3" sideWeight="0.27739727" side_tool="true" weight="0.16950959" />
       <window_info auto_hide="true" content_ui="combo" x="-1898" y="391" width="1876" height="257" id="Find" order="4" sideWeight="0.42358804" side_tool="true" weight="0.20895523" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65831554" visible="true" weight="0.40423164" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6577825" visible="true" weight="0.40423164" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.93336886" weight="0.3997773" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="5" sideWeight="0.5943497" weight="0.33741647" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.10690423" />
-      <window_info active="true" anchor="bottom" x="-1920" y="23" width="1920" height="1017" id="Version Control" order="7" sideWeight="0.6151386" type="WINDOWED" visible="true" weight="0.15367483" />
+      <window_info anchor="bottom" x="-1920" y="23" width="1920" height="1017" id="Version Control" order="7" sideWeight="0.6151386" type="WINDOWED" weight="0.15367483" />
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.52665246" weight="0.3496659" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34168443" side_tool="true" visible="true" weight="0.40423164" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34221748" side_tool="true" visible="true" weight="0.40423164" />
       <window_info anchor="bottom" id="Tail" order="10" sideWeight="0.4986577" weight="0.47772828" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.7436034" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.68443495" weight="0.35634744" />
@@ -601,23 +626,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.zshrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.zshrc" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/release-package.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="5" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/release-package.yml" />
     <entry file="file://$PROJECT_DIR$/lib/adkTitlePlayer/adkTitlePlayer.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -696,12 +709,8 @@
     <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/npm/node_modules/npm-lifecycle/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.jsonhj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package.jsonhj" />
+    <entry file="file://$PROJECT_DIR$/.github/workflows/package.json" />
     <entry file="file://$PROJECT_DIR$/jestconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -733,6 +742,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/deno.yml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -743,17 +760,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.github/workflows/labeler.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/labeler.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
+        <state relative-caret-position="-229" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.npmrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="69" selection-start-column="69" selection-end-column="69" />
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -764,17 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/deno.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="54">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
